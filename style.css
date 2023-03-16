@@ -1,0 +1,173 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html {
+height: 100vh;
+}
+
+/* ----------- header_line ----------- */
+.header {
+font-family: 'Open Sans', sans-serif;
+margin: 0;
+}
+.container_header {
+padding: 50px 200px;
+background-image: url(https://www.slidebackground.com/uploads/kids-background/kids-programs-background-animation-youtube-0.jpg);
+background-position: bottom;
+background-repeat: no-repeat;
+background-size: cover;
+-webkit-box-shadow: inset 0px -15px 16px 2px #FFE8BC; 
+box-shadow: inset 0px -15px 16px 2px #FFE8BC;
+}
+.header_nav {
+display: flex;
+}
+.header_logo {
+width: 303px;
+heigth: 67px;
+paddingt: 25px;
+}
+.header_nav .linkdiv {
+display: flex;
+min-width: 134px;
+margin: 0 10px;
+justify-content: center;
+align-items: center;
+height: 50px;
+text-decoration: none;
+color: white;
+background-color: rgb(57, 190, 0);
+border: solid 4px green;
+border-radius: 50px;
+font-family: 'Open Sans', sans-serif;
+font-weight: 600;
+transition-duration: 0.2s;
+}
+.header_nav .linkdiv a {
+text-decoration: none;
+color: white;
+transition-duration: 0.2s;
+}
+.header_nav .linkdiv:hover {
+background-color: rgb(57, 227, 0);
+border: solid 4px rgb(0, 197, 0);
+transition: 0.2s linear;
+}
+.header_line {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+/* ----------- down_header ----------- */
+
+.down_container {
+padding: 0 200px;
+background-color: #FFE8BC;
+}
+.txt {
+padding: 50px 0;
+}
+.book {
+display: flex;
+padding-bottom: 100px;
+}
+.fpage {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+background-color: white;
+width: 350px;
+height: 300px;
+-webkit-box-shadow: inset -50px 0px 35px -30px #7C705B; 
+box-shadow: inset -50px 0px 35px -30px #7C705B;
+}
+.fpage a {
+text-decoration: none;
+color: red;
+font-weight: 700;
+font-size: 30px;
+}
+.spage {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+background-color: white;
+width: 350px;
+height: 300px;
+-webkit-box-shadow: inset 50px 0px 35px -30px #7C705B; 
+box-shadow: inset 50px 0px 35px -30px #7C705B;
+}
+.spage a {
+text-decoration: none;
+color: red;
+font-weight: 700;
+font-size: 30px;
+}
+
+/* ----------- main ----------- */
+.main_container {
+display: flex;
+justify-content: center;
+padding: 50px 200px;
+background-color: #FFE8BC;
+font-family: 'Open Sans', sans-serif;
+}
+.fairytale1 {
+width: 300px;
+text-align: center;
+display: flex;
+}
+.fairytale1 h2 {
+color: red;
+}
+
+@media screen and (max-width: 360px) {
+.header_logo {
+width: 800px;
+height: 500px;
+}
+.fpage a {
+font-size: 60px;
+}
+.spage a {
+font-size: 60px;
+}
+}
+@media screen and (max-width: 980px) {
+.header_line {
+max-width: 462px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.header_logo {
+width: 500px;
+heigth: 303px;
+paddingt: 25px;
+margin-left: -1px; 
+}
+.container_header {
+display: flex;
+justify-content: center;
+}
+.fpage a {
+font-size: 30px;
+}
+.spage a {
+font-size: 30px;
+}
+.main_container {
+font-size: 30px;
+}
+.fairytale1 {
+width: 400px;
+}
+}
+
